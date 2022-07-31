@@ -18,14 +18,10 @@ function preload()
 	enemy2Img = loadImage("assets/enemy2.png")
 	enemy3Img = loadImage("assets/enemy3.png")
 	bossImg = loadImage("assets/boss.png")
-	music = loadSound("music.mp3", loaded)
 
 	backroundImg = loadImage("assets/space backround.png")
 }
 
-function loaded(){
-	music.loop()
-}
 
 function setup() {
 	
@@ -64,7 +60,6 @@ function setup() {
 
 
 function draw() {
- music.loop()
  background("white")
  drawSprites();
  console.log(gamestate)
