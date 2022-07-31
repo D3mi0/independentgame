@@ -149,7 +149,7 @@ function draw() {
 		health.visible=false
 	  }
 
-	  if (score>=5){
+	  if (score>=8){
 		healthbackround.visible = true
 		health.visible = true
 	}
